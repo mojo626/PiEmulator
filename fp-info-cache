@@ -1,4 +1,4 @@
-22508794383888566
+22515639367160055
 ADA3708 Adafruit
 MODULE_ADA3708
 
@@ -50896,6 +50896,13 @@ MesurementPoint Square SMDPad 5mmx10mm
 0
 1
 1
+Connector_Wire
+Solder_Pad_4x4mm
+
+
+0
+1
+1
 Connector_Wuerth
 Wuerth_WR-WTB_64800211622_1x02_P1.50mm_Vertical
 Wuerth WR-WTB series connector, 64800211622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
@@ -92680,12 +92687,33 @@ SQFN-36_L6.0-W6.0-P0.50-BL-EP
 37
 37
 easyeda2kicad
+SW-SMD_4P-L6.2-W6.2-P4.00-LS7.0
+
+
+0
+12
+2
+easyeda2kicad
+SW-SMD_4P-L6.2-W6.2-P4.00-LS7.2
+
+
+0
+4
+4
+easyeda2kicad
 SW-SMD_L3.1-W3.1-P2.20-LS4.0
 
 
 0
-6
+8
 4
+easyeda2kicad
+SW-SMD_TSA020XXXXXX
+
+
+0
+7
+5
 easyeda2kicad
 TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL
 
