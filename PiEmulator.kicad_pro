@@ -456,7 +456,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "PiEmulator.step",
-      "vrml": ""
+      "vrml": "PiEmulator.wrl"
     },
     "page_layout_descr_file": ""
   },
