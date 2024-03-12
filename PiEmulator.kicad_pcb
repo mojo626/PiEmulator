@@ -404,7 +404,7 @@
     (pad "5" smd rect (at 1.85 0.97 180) (size 1.3 0.9) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 57 "unconnected-(SWR1-Pad5)") (pinfunction "5") (pintype "unspecified+no_connect") (tstamp c160eb56-2e43-463b-aa48-0d13e1f00f4d))
     (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-SMD_TSA020XXXXXX.wrl"
-      (offset (xyz 0 -0.13 0.5))
+      (offset (xyz 0 -0.9 1.7))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -631,9 +631,14 @@
     (pad "14" thru_hole oval locked (at -0.74 -4.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 21 "unconnected-(U2-T_IRQ-Pad14)") (pinfunction "T_IRQ") (pintype "input+no_connect") (tstamp 9e4a300c-740f-479a-9b74-2448b38087b7))
     (model "${KIPRJMOD}/models/4.0 inch TFT touch.step"
-      (offset (xyz -2.5 21 34))
+      (offset (xyz -2.5 21 34.7))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ":EASYEDA2KICAD:easyeda2kicad.3dshapes/HDR-TH_14P-P2.54-M-LI-1X14P.wrl"
+      (offset (xyz -0.5 20.7 3.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 -90))
     )
   )
 
@@ -708,7 +713,7 @@
     (pad "2" smd rect (at 3 2) (size 2.1 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 30 "/Right") (pintype "unspecified") (tstamp 85d7c120-494c-4cb1-84fc-f00285ffe4c3))
     (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-SMD_4P-L6.2-W6.2-P4.00-LS7.0.wrl"
-      (offset (xyz 0 -0 -0))
+      (offset (xyz 0 -0 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -841,7 +846,7 @@
     (pad "2" smd rect (at 3 2) (size 2.1 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 32 "/Left") (pintype "unspecified") (tstamp 24649076-80dd-4380-b401-7bbfd273c4f7))
     (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-SMD_4P-L6.2-W6.2-P4.00-LS7.0.wrl"
-      (offset (xyz 0 -0 -0))
+      (offset (xyz 0 -0 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -972,7 +977,7 @@
     (pad "2" smd rect (at 3 2) (size 2.1 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 29 "/Up") (pintype "unspecified") (tstamp c9ba5d02-4d1b-4f42-b009-c8fd297abc89))
     (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-SMD_4P-L6.2-W6.2-P4.00-LS7.0.wrl"
-      (offset (xyz 0 -0 -0))
+      (offset (xyz 0 -0 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -1049,7 +1054,7 @@
     (pad "2" smd rect (at 3 2) (size 2.1 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 31 "/Down") (pintype "unspecified") (tstamp 027ebe89-0a10-4ec2-ad70-74dfa03842c5))
     (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-SMD_4P-L6.2-W6.2-P4.00-LS7.0.wrl"
-      (offset (xyz 0 -0 -0))
+      (offset (xyz 0 -0 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -1331,9 +1336,14 @@
     (pad "40" thru_hole circle (at 24.13 -12.77) (size 1.508 1.508) (drill 1) (layers "*.Cu" "*.Mask")
       (net 3 "/RB") (pinfunction "GPIO21") (pintype "bidirectional") (solder_mask_margin 0.102) (tstamp 47dde2ac-8753-4650-9e59-ecb8058a6e50))
     (model "/Users/ben/Downloads/ADA3708 Adafruit/ADA3708.step"
-      (offset (xyz 0 0 -10))
+      (offset (xyz 0 0 -12.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
+    )
+    (model ":EASYEDA2KICAD:easyeda2kicad.3dshapes/HDR-TH_40P-P2.54-F-LI-2X20P.wrl"
+      (offset (xyz 0 11.5 -1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -180 0 0))
     )
   )
 
@@ -1485,7 +1495,7 @@
     (pad "2" smd rect (at 3 2) (size 2.1 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 37 "/Action") (pintype "unspecified") (tstamp 98caae05-c3bd-441e-9589-00a223cbccc4))
     (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-SMD_4P-L6.2-W6.2-P4.00-LS7.0.wrl"
-      (offset (xyz 0 -0 -0))
+      (offset (xyz 0 -0 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -1562,7 +1572,7 @@
     (pad "2" smd rect (at 3 2) (size 2.1 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 38 "/Select") (pintype "unspecified") (tstamp 6e2881dd-8b31-471f-b85c-d7328109fa93))
     (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-SMD_4P-L6.2-W6.2-P4.00-LS7.0.wrl"
-      (offset (xyz 0 -0 -0))
+      (offset (xyz 0 -0 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -1639,7 +1649,7 @@
     (pad "2" smd rect (at 3 2) (size 2.1 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 39 "/Start") (pintype "unspecified") (tstamp dd131bd8-f052-4d3e-8039-3b7b19e02cef))
     (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-SMD_4P-L6.2-W6.2-P4.00-LS7.0.wrl"
-      (offset (xyz 0 -0 -0))
+      (offset (xyz 0 -0 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -1940,7 +1950,7 @@
           (width 0.1) (fill yes))
       ) (tstamp 0f0d7c93-ae9b-42c0-8428-2e385af77141))
     (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VSON-10_L3.0-W3.0-P0.50-TL-EP_TPS61230DRCR.wrl"
-      (offset (xyz 0 -0 -0))
+      (offset (xyz 0 -0 1))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -2041,6 +2051,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "/Users/ben/OneDrive/ESP32C3DevBoard/3D Models/HRO  TYPE-C-31-M-12.step"
+      (offset (xyz -4.5 -3.75 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
