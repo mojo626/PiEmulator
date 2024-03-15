@@ -1503,7 +1503,7 @@
 
   (footprint "easyeda2kicad:SW-SMD_4P-L6.2-W6.2-P4.00-LS7.0" (layer "F.Cu")
     (tstamp ececda74-cc67-4ee0-b0c6-c4a3b5c8a66d)
-    (at 86.044 75.281)
+    (at 85.325 75.374)
     (property "LCSC Part" "C963191")
     (property "Sheetfile" "PiEmulator.kicad_sch")
     (property "Sheetname" "")
